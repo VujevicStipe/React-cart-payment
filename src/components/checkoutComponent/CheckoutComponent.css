@@ -1,0 +1,58 @@
+.checkout-component {
+    padding: 0.7rem 3rem;
+    min-width: 400px;
+    max-height: 700px;
+
+    & > * {
+        width: 100%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+
+        & > * {
+            width: 100%;
+        }
+        & > *:not(:last-child) {
+            margin-bottom: 5px;
+        }
+        div {
+            display: inherit;
+            flex-direction: row;
+            justify-content: space-between;
+            span {
+                width: 47%;
+            }
+        }
+        span {
+            display: inherit;
+            flex-direction: column;
+        }
+        label {
+            padding: 0;
+        }
+        input, select {
+            padding: 0.5rem 0.2rem;
+            margin: 0;
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+        }
+        hr {
+            height: 1px;
+            margin: 0.7rem 0 0.3rem 0;
+        }
+        button {
+            padding: 0.7rem 0;
+            margin-top: 1rem;
+            background-color: black;
+        }
+    }
+    .error {
+        color: red;
+        font-size: 0.7rem;
+    }
+}
