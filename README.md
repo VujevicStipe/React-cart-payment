@@ -1,14 +1,16 @@
-# React Shopping Cart
+# React Shopping Cart With Payment
 
 This GitHub project simulates a shopping cart using React components to display items fetched from a JSON file. TypeScript is utilized for type safety and enhanced development experience. Users are required to input personal data such as name, surname, credit card information, etc. The entered data undergoes validation before proceeding with the purchase.
+
+## Live Demo
+
+The project has been successfully deployed and is accessible via the following link: [React Shopping Cart](https://vermillion-platypus-bb8ccd.netlify.app/)
 
 ## Overview
 
 The project focuses on creating a dynamic shopping cart experience using React components. Items are fetched from a JSON file and displayed in a user-friendly interface. TypeScript ensures type safety throughout the development process, reducing potential runtime errors and enhancing the overall development experience.
 
-## Deployment
-
-The project has been successfully deployed and is accessible via the following link: [React Shopping Cart](https://vermillion-platypus-bb8ccd.netlify.app/)
+![Alt Text](./public/assets/showcaseCart.png)
 
 ## Features
 
